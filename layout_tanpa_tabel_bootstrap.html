@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Webpage</title>
+    <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <style type="text/css">
+
+        .footer{
+            text-align: center;
+            background-color: #ccc;
+            min-height: 50px;
+        }
+        .container{
+            width: 800px;
+            margin: 0 auto;
+
+        }
+
+        .jumbotron{
+            width: 100%;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+            background-color: #aaa;
+            background-image: url("https://images.unsplash.com/photo-1515111293107-b0cd6448f5f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e4f56141064dbe63db663bb7a2c73b71&auto=format&fit=crop&w=1350&q=80");
+            background-size: cover;
+            position: relative;
+            font-family: 'Ranga', cursive;
+
+        }
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.4;
+        }
+        .jumbotron h2,
+        .jumbotron p{
+            position: relative;
+        }
+        #logo{
+            width: 200px;
+            height: 120px;
+        }
+        .navbar-header{
+            width: 225px;
+            height: 150px;
+            padding-top: auto;
+        }
+        .nav ul li{
+           font-size: medium;
+        }
+        .row img{
+            width: 225px;
+            height: 150px;
+            padding: 10px;
+        }
+        .div h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<nav class=".navbar.navbar-default.navbar-fixed-top.navbar-cp">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" src="./wu-yi-579165-unsplash.jpg" id="logo">
+            </a>
+        </div>
+
+        <ul class="nav navbar-nav">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">About</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+</nav>
+<div class="container">
+    <div class="jumbotron">
+        <div class="overlay"></div>
+        <h2>Welcome to my homepage</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus quae voluptate explicabo architecto fugiat asperiores illo quibusdam qui mollitia, porro fugit. Illum sapiente modi, ut harum aliquam accusamus unde.</p>
+
+    </div>
+
+    <div class="col-md-12">
+        <div style="background-color: #b3d4fc"; class="row"; >
+            <div class="col-md-4">
+                <img src="wu-yi-579165-unsplash.jpg">
+                <h2>Produk 1</h2>
+            </div>
+
+            <div class="col-md-4 ">
+                <img src="https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?cs=srgb&dl=action-figures-art-boy-163036.jpg&fm=jpg">
+                <h2>Produk 2</h2>
+            </div>
+
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/944740/pexels-photo-944740.jpeg?cs=srgb&dl=alphabet-conceptual-display-944740.jpg&fm=jpg">
+                <h2>Produk 3</h2>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: #b3d4fc"; class="row"; >
+        <div class="col-md-4">
+            <img src="wu-yi-579165-unsplash.jpg">
+            <h2>Produk 4</h2>
+        </div>
+
+        <div class="col-md-4 ">
+            <img src="https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?cs=srgb&dl=action-figures-art-boy-163036.jpg&fm=jpg">
+            <h2>Produk 5</h2>
+        </div>
+
+        <div class="col-md-4">
+            <img src="https://images.pexels.com/photos/944740/pexels-photo-944740.jpeg?cs=srgb&dl=alphabet-conceptual-display-944740.jpg&fm=jpg">
+            <h2>Produk 6</h2>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2018 Shelly Marshallena</p>
+    </div>
+</div>
+</body>
+</html>

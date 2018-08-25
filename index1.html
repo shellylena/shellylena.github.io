@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>LAYOUT DENGAN CSS</title>
+		<style>
+			.container{
+				background-color: white;
+				margin: 0 auto;
+				width:60%;
+			}
+			.header{
+					background-color: red;
+					margin: 0 auto;
+					text-align:right;
+			}
+			.gambar{
+				width: 60%;
+				height: 50%;
+			}
+			.content{
+				background-color: yellow;
+				margin: 0 auto;
+				overflow: auto;	
+			}
+			.footer{
+				background-color: green;
+				margin: 0 auto;
+				text-align: center;
+			}
+			.content img {
+				float:left;
+				width:60%;
+				height:50%;
+				padding-bottom: 10px;
+
+			}
+		</style>
+	</head>
+		<body>
+			<div class="container">
+				<div class="header">
+					<a href="#">Home</a>
+					<a href="#">About</a>
+				</div>
+				
+				<div class="gambar">
+					<img src="test.jpg">
+				</div>	
+				
+				<div class="content">
+					<p> Artikel</p>
+					<img src= "test.jpg">
+					<p>Welcome to my homepage. Here you can learn about float proprty in CSS. This is example of image floated beside paragraph</p>
+				</div>
+				
+				<div class="content">
+					<img src= "test.jpg">
+					<p>Welcome to my homepage. Here you can learn about float proprty in CSS. This is example of image floated beside paragraph</p>
+				</div>
+				
+				<div class="content">
+					<img src= "test.jpg">
+					<p>Welcome to my homepage. Here you can learn about float proprty in CSS. This is example of image floated beside paragraph</p>
+				</div>
+				
+				<div class="footer">
+					<p>copyright 2018</p>
+					
+				</div>
+			</div>		
+		
+
+		</body>
+
+</html>
